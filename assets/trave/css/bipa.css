@@ -1,0 +1,221 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 7, 2019, 2:47:53 AM
+    Author     : Vandraz
+*/
+
+
+.word{
+    font-size: 15pt;
+    font-family: Book Antiqua;
+    
+}
+
+.judul{
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-style: initial;
+    text-align: center;
+    color: white
+}
+
+.judulhome{
+    font-size: 50pt;
+    font-family: Impact;
+    font-style: initial;
+    text-align: center;
+}
+
+.kotak{
+  height: 100%;
+  text-align: center;
+}
+
+.menuawal{
+    font-size: 15pt;
+    font-family: Impact;
+    font-style: initial;
+    background-color: white;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.boxbipaloka{
+-moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+a:hover {
+  background-color: #FF6347;
+}
+
+.active {
+  text-shadow: -1px -1px 1px #555;
+  position: relative;
+  top: 1px;
+  left: 1px;
+  background-color: #4169E1
+}
+
+.boxpaket{
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+.content {
+  padding: 100px 0;
+  margin: 50px auto 0 auto;
+  width: 80%;
+}
+
+.form-modif{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 40px;
+}
+
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.profile {
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+.profile-inline ~ .card-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+

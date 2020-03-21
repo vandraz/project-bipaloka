@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2019, 3:27:22 PM
+    Author     : Vandraz
+*/
+
+.auth_form{
+    background-color: rgb(212 226 248);
+    height: 100vh;
+}
+
+.kolomatas{
+    //background-color: ;
+    height: 20vh;
+}
+
+.konten_form{
+    height: 10vh;
+    
+}
+
+.form_center{
+    border-radius: 25px;
+    height: 60vh;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24pt;
+    font-family: "Arial",Helvetica, serif;
+}
+
+.btn_form{
+     border-radius: 25px;
+     height: 5vh;
+     width: 20vh;
+    padding: 10px;
+}
+
+.btn_tab{
+    background-color: red;
+    border-color: transparent;
+    margin-left: 10vh;
+    border-radius: 5px;
+    height: 13vh;
+    margin-top: -3vh;
+    margin-left: -8vh;
+    width: 30vh;
+    position: absolute;
+}
+
+.teks{
+    font-size: 12pt;
+    font-family: "Arial",Helvetica, serif;
+}
+
+h3{
+    font-size: 14pt;
+    font-family: "Arial",Helvetica, serif;
+}
+
+.input_login{
+     border-radius: 25px;
+     height: 5vh;
+     width: 50vh;
+     text-align: center;
+}
+
+.konten_blank{
+    //background-color: ;
+    height: 50vh;
+}
+
+.active_menu{
+    background-color: rgb(135 149 180);
+    color: whitesmoke;
+}
